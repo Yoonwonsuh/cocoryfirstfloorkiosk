@@ -38068,28 +38068,30 @@ l(){var s=this.f
 s===$&&A.b()
 s.ap(0)
 this.aF()},
-R(a){var s,r,q,p,o,n,m,l=this,k=null
-if(l.a.c.length===0){s=$.bi.W()
+R(a){var s,r,q,p,o,n,m,l,k=this,j=null
+if(k.a.c.length===0){s=$.bi.W()
 r=$.fd.W()
-return A.cR(k,k,k,k,new A.dA(B.i,k,k,A.zM(3.009259259259259*$.bi.W()/100),k,k,B.aj),28.125*r/100,k,k,88.88888888888889*s/100)}else{s=3.7037037037037033*$.bi.W()/100
+return A.cR(j,j,j,j,new A.dA(B.i,j,j,A.zM(3.009259259259259*$.bi.W()/100),j,j,B.aj),28.125*r/100,j,j,88.88888888888889*s/100)}else{s=3.7037037037037033*$.bi.W()/100
 r=2.34375*$.fd.W()/100
-q=l.e
+q=k.e
 p=A.by(0,0,500,0,0)
-q=A.OE(A.iW(l.a.c[l.d].b,k,A.dQ(k,k,B.j,k,k,k,k,k,k,k,k,6.018518518518518*$.bi.W()/100,k,k,B.r,k,k,!0,k,k,k,k,k,k,k,k),k),p,q)
-p=l.e
+q=A.OE(A.iW(k.a.c[k.d].b,j,A.dQ(j,j,B.j,j,j,j,j,j,j,j,j,6.018518518518518*$.bi.W()/100,j,j,B.r,j,j,!0,j,j,j,j,j,j,j,j),j),p,q)
+p=k.e
 o=A.by(0,0,500,0,0)
 n=$.bi.W()
-p=A.OE(A.cR(k,A.iW(l.a.c[l.d].a,B.cS,A.dQ(k,k,B.j,k,k,k,k,k,k,k,k,8.333333333333332*$.bi.W()/100,k,k,B.ca,k,k,!0,k,k,k,k,k,k,k,k),k),k,k,k,k,k,k,64.32870370370371*n/100),o,p)
-o=l.e
+p=A.OE(A.cR(j,A.iW(k.a.c[k.d].a,B.cS,A.dQ(j,j,B.j,j,j,j,j,j,j,j,j,8.333333333333332*$.bi.W()/100,j,j,B.ca,j,j,!0,j,j,j,j,j,j,j,j),j),j,j,j,j,j,j,64.32870370370371*n/100),o,p)
+o=k.e
 n=A.by(0,0,500,0,0)
 m=$.bi.W()
-o=A.OE(A.cR(k,A.iW("people : "+l.a.c[l.d].d,B.cS,A.dQ(k,k,B.j,k,k,k,k,k,k,k,k,6.018518518518518*$.bi.W()/100,k,k,B.r,k,k,!0,k,k,k,k,k,k,k,k),k),k,k,k,k,k,k,37.26851851851852*m/100),n,o)
-n=l.e
+l=k.a.c[k.d].d
+l=l==="1"?l+" person":l+" people"
+o=A.OE(A.cR(j,A.iW(l,B.cS,A.dQ(j,j,B.j,j,j,j,j,j,j,j,j,6.018518518518518*$.bi.W()/100,j,j,B.r,j,j,!0,j,j,j,j,j,j,j,j),j),j,j,j,j,j,j,37.26851851851852*m/100),n,o)
+n=k.e
 m=A.by(0,0,500,0,0)
-n=A.Au(A.a([q,p,o,A.OE(new A.n7(B.vF,k,k,A.iW(l.a.c[l.d].c,k,A.dQ(k,k,B.j,k,k,k,k,k,k,k,k,6.018518518518518*$.bi.W()/100,k,k,B.ca,k,k,!0,k,k,k,k,k,k,k,k),k),k),m,n)],t.F),B.f2,B.p3)
+n=A.Au(A.a([q,p,o,A.OE(new A.n7(B.vF,j,j,A.iW(k.a.c[k.d].c,j,A.dQ(j,j,B.j,j,j,j,j,j,j,j,j,6.018518518518518*$.bi.W()/100,j,j,B.ca,j,j,!0,j,j,j,j,j,j,j,j),j),j),m,n)],t.F),B.f2,B.p3)
 m=$.bi.W()
 o=$.fd.W()
-return A.cR(k,new A.hE(new A.bK(s,r,s,r),n,k),k,k,new A.dA(B.i,k,k,A.zM(3.009259259259259*$.bi.W()/100),k,k,B.aj),28.125*o/100,k,k,88.88888888888889*m/100)}}}
+return A.cR(j,new A.hE(new A.bK(s,r,s,r),n,j),j,j,new A.dA(B.i,j,j,A.zM(3.009259259259259*$.bi.W()/100),j,j,B.aj),28.125*o/100,j,j,88.88888888888889*m/100)}}}
 A.a23.prototype={
 $1(a){this.a.RY()},
 $S:319}
