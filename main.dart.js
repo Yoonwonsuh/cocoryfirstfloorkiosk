@@ -34305,12 +34305,12 @@ s=$.a2.A()
 q=$.aW.A()
 p=$.a2.A()
 o=$.aW.A()
-q=A.ji(m,A.b9(m,A.ov("assets/png/eng_qr.png",B.bT),m,m,m,16.692708333333332*o/100,m,m,26.75925925925926*p/100),m,m,33.594907407407405*s/100,m,5*q/100,m)
+q=A.ji(m,A.b9(m,A.ov("assets/png/eg_qr.png",B.bT),m,m,m,16.692708333333332*o/100,m,m,26.75925925925926*p/100),m,m,33.594907407407405*s/100,m,5*q/100,m)
 s=$.a2.A()
 p=$.aW.A()
 o=$.a2.A()
 n=$.aW.A()
-return A.b9(m,A.pB(B.bm,A.a([i,h,r,q,A.ji(m,A.b9(m,A.ov("assets/png/china_qr.png",B.bT),m,m,m,16.692708333333332*n/100,m,m,26.75925925925926*o/100),m,m,63.965277777777786*s/100,m,5*p/100,m)],g),B.bG),m,m,new A.cU(B.h,m,m,j,m,m,B.U),23.359375*k/100,m,m,93.7175925925926*l/100)}}
+return A.b9(m,A.pB(B.bm,A.a([i,h,r,q,A.ji(m,A.b9(m,A.ov("assets/png/ch_qr.png",B.bT),m,m,m,16.692708333333332*n/100,m,m,26.75925925925926*o/100),m,m,63.965277777777786*s/100,m,5*p/100,m)],g),B.bG),m,m,new A.cU(B.h,m,m,j,m,m,B.U),23.359375*k/100,m,m,93.7175925925926*l/100)}}
 A.wh.prototype={
 aa(){return new A.MT(B.k)}}
 A.MT.prototype={
