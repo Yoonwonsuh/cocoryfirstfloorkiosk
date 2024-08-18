@@ -35016,9 +35016,8 @@ return-1}}
 A.ti.prototype={
 a9(){return new A.Jm()}}
 A.Jm.prototype={
-ap(){var s=this
-s.aI()
-if(s.a.c.length!==0)s.f=A.I4(A.bm(0,0,0,0,5),new A.a8G(s))},
+ap(){this.aI()
+this.f=A.I4(A.bm(0,0,0,0,5),new A.a8G(this))},
 Tj(){this.ao(new A.a8E(this))
 A.mF(A.bm(0,0,500,0,0),new A.a8F(this),t.P)},
 l(){var s=this.f
