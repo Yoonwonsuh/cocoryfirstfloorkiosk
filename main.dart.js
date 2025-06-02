@@ -36134,20 +36134,19 @@ if(q.d<280)return r}q.d=u.t.charCodeAt((q.d&-4)+18)
 return s}}
 A.D8.prototype={}
 A.D9.prototype={
-aG(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=this.d
-if(B.b.ip(h,new A.Tg()))return
+aG(a,b){var s,r,q,p,o,n,m,l,k,j,i=this.d
+if(B.b.ip(i,new A.Tg()))return
 for(s=this.c,r=b.a,q=0;q<10;++q){p=s[q]
-p.a=p.a+p.c/r
-o=h[p.e]
-n=p.d
-m=o.gbR(o)*n
-l=p.a
-k=l*r
-if(k>r)l=p.a=-m/r
-else if(k+m<0){l=1+m/r
-p.a=l}j=l*r
-i=p.b
-a.ju(o,new A.E(0,0,o.gbR(o),o.gbt(o)),new A.E(j,i,j+m,i+o.gbt(o)*n),$.am().bl())}},
+o=p.c
+p.a=p.a+o/r
+n=i[p.e]
+m=p.d
+l=n.gbR(n)*m
+if(o>0&&p.a*r>r)p.a=-l/r
+else if(o<0&&p.a*r+l<0)p.a=1
+k=p.a*r
+j=p.b
+a.ju(n,new A.E(0,0,n.gbR(n),n.gbt(n)),new A.E(k,j,k+l,j+n.gbt(n)*m),$.am().bl())}},
 ie(a){return!0}}
 A.Tg.prototype={
 $1(a){return a==null},
@@ -36423,7 +36422,7 @@ q=J.ahH(10,t.vh)
 for(n=0;n<10;++n){s=B.aq.iM()
 r=B.aq.iM()
 m=B.aq.a7T()?1:-1
-q[n]=new A.D8(s,r*o*0.3,m*(B.aq.iM()*0.5+0.2),B.aq.iM()*0.5+0.5,B.aq.a7U(2))}l.as=q
+q[n]=new A.D8(s,r*o*0.3,m*(B.aq.iM()*0.5+0.2),B.aq.iM()*0.5+0.8,B.aq.a7U(2))}l.as=q
 l.kl(0,"assets/png/cloud_1.png")
 l.kl(1,"assets/png/cloud_2.png")},
 kl(a,b){return this.Zr(a,b)},
